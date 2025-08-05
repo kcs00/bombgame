@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>지뢰찾기 게임</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>지뢰찾기</h1>
+        <div class="game-info">
+            <div class="flags">🚩 <span id="flags-left">0</span></div>
+            <div class="timer">⏱️ <span id="timer">0</span></div>초
+            <button id="reset">새 게임</button>
+        </div>
+        <div class="difficulty">
+            <button id="easy">쉬움 (9x9)</button>
+            <button id="medium">보통 (16x16)</button>
+            <button id="hard">어려움 (30x16)</button>
+        </div>
+        <div id="board"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
